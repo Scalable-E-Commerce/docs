@@ -53,10 +53,16 @@ The platform is designed with cloud scalability in mind and utilizes:
 ## Deployment
 All microservices are containerized using Docker, with orchestration managed through Docker Compose for development and Kubernetes for production.
 
-### Key Deployment Features:
+## Key Deployment Features:
 - **EC2 Instances**: The platform is deployed on AWS EC2 instances for flexibility and scalability.
 - **GitHub Actions**: Automates the build, test, and deployment processes.
 - **Load Balancing**: Ensures high availability and efficient request handling.
+
+## Documentation
+For those who want a deeper understanding of the platform, comprehensive documentation is available in the [/docs folder.](https://github.com/Scalable-E-Commerce/Scalable-E-Commerce/docs) The documentation provides insights!
+
+## Technology Stack for Microservices  
+This platform includes a **boilerplate project** that explains the recommended technologies and architecture for building microservices. You can find it here: [Boilerplate for Scalable Microservices](https://github.com/Scalable-E-Commerce/boilerplate-microservice).  
 
 ## Contributing
 Contributions are welcome! If you’re interested in improving the platform or adding new features, please follow these steps:
@@ -70,7 +76,3 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 
 ## Contact
 For questions or suggestions, feel free to open an issue in the respective repository or contact us directly.
-
----
-
-This platform aims to be a comprehensive solution for e-commerce needs while remaining open and flexible for customization and scaling. We look forward to your contributions and feedback!
