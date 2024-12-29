@@ -42,13 +42,12 @@ The platform is designed with cloud scalability in mind and utilizes:
 
 - **PostgreSQL**: A powerful relational database hosted on Amazon RDS for data persistence.
 - **MongoDB**: A NoSQL database for handling unstructured or semi-structured data.
-- **RabbitMQ**: Hosted on Amazon MQ for reliable messaging between microservices.
+- **RabbitMQ**: Implements RabbitMQ (via Amazon MQ) for asynchronous communication between services.
 - **CI/CD Pipeline**: Automated deployments to Amazon EC2 using GitHub Actions, ensuring efficient and consistent releases.
 - **API Gateway**: Serves as the single entry point for all client requests, routing them to the appropriate microservices.
-- **Service Discovery**: Automatically detects and manages service instances using tools like Consul.
 - **Centralized Logging**: Aggregates logs from all microservices using the ELK stack (Elasticsearch, Logstash, Kibana).
-- **Monitoring**: Uses Prometheus and Grafana for system monitoring.
-- **Message Queue**: Implements RabbitMQ (via Amazon MQ) for asynchronous communication between services.
+- **Monitoring**: Uses Datadog for system monitoring.
+- **Service Discovery**: Automatically detects and manages service instances using tools like Consul.
 
 ## Deployment
 All microservices are containerized using Docker, with orchestration managed through Docker Compose for development and Kubernetes for production.
