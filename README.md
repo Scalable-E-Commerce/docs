@@ -9,31 +9,31 @@ The platform is built using **Node.js** and **TypeScript**, with each core featu
 - **Scalability**: Services can be scaled based on demand without affecting others.
 - **Resilience**: Fault isolation ensures that issues in one service don’t bring down the entire system.
 
-![image](https://github.com/user-attachments/assets/1859830f-bb42-4a99-9732-e91c9d60f950)
+![image](https://github.com/user-attachments/assets/28b17d45-7084-4bc5-9ba0-aac42347e575)
 
 ## Core Features
 
 The platform includes the following core microservices:
 
-1. [**User Service**](#)  
+1. [**User Service**](https://github.com/Scalable-E-Commerce/user-microservice)  
    Handles user registration, authentication, and profile management.  
 
-2. [**Product Catalog Service**](#)  
-   Manages product listings, categories, and inventory.  
-
-3. [**Shopping Cart Service**](#)  
-   Manages users’ shopping carts, including adding/removing items and updating quantities.  
-
-4. [**Order Service**](#)  
-   Processes orders, tracks order status, and manages order history.  
-
-5. [**Payment Service**](#)  
+2. [**Payment Service**](https://github.com/Scalable-E-Commerce/payment-microservice)  
    Handles payment processing, integrating with external payment gateways such as Stripe or PayPal.  
 
-6. [**Notification Service**](#)  
+3. [**Notification Service**](https://github.com/Scalable-E-Commerce/notification-microservice)  
    Sends email and SMS notifications for events such as order confirmations and shipping updates.  
 
-7. [**Client Web**](#)  
+4. [**Product Service**](https://github.com/Scalable-E-Commerce/product-microservice)  
+   Manages product listings, categories, and inventory.  
+
+5. [**Cart Service**](https://github.com/Scalable-E-Commerce/cart-microservice)  
+   Manages users’ shopping carts, including adding/removing items and updating quantities.  
+
+6. [**Order Service**](https://github.com/Scalable-E-Commerce/order-microservice)  
+   Processes orders, tracks order status, and manages order history.  
+   
+7. [**Client Web**](https://github.com/Scalable-E-Commerce/frontend-microservice)  
    Provides a user-friendly interface for customers to browse products, manage their carts, and place orders.  
 
 ## Infrastructure
