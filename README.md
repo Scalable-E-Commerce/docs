@@ -9,6 +9,8 @@ The platform is built using **Node.js** and **TypeScript**, with each core featu
 - **Scalability**: Services can be scaled based on demand without affecting others.
 - **Resilience**: Fault isolation ensures that issues in one service don’t bring down the entire system.
 
+![image](https://github.com/user-attachments/assets/1859830f-bb42-4a99-9732-e91c9d60f950)
+
 ## Core Features
 
 The platform includes the following core microservices:
