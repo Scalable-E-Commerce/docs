@@ -31,11 +31,15 @@ The platform includes the following core microservices:
 6. [**Notification Service**](#)  
    Sends email and SMS notifications for events such as order confirmations and shipping updates.  
 
+7. [**Client Web**](#)  
+   Provides a user-friendly interface for customers to browse products, manage their carts, and place orders.  
+
 ## Infrastructure
 
 The platform is designed with cloud scalability in mind and utilizes:
 
 - **PostgreSQL**: A powerful relational database hosted on Amazon RDS for data persistence.
+- **MongoDB**: A NoSQL database for handling unstructured or semi-structured data.
 - **RabbitMQ**: Hosted on Amazon MQ for reliable messaging between microservices.
 - **CI/CD Pipeline**: Automated deployments to Amazon EC2 using GitHub Actions, ensuring efficient and consistent releases.
 - **API Gateway**: Serves as the single entry point for all client requests, routing them to the appropriate microservices.
@@ -68,4 +72,3 @@ For questions or suggestions, feel free to open an issue in the respective repos
 ---
 
 This platform aims to be a comprehensive solution for e-commerce needs while remaining open and flexible for customization and scaling. We look forward to your contributions and feedback!
-
