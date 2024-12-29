@@ -40,10 +40,11 @@ The platform includes the following core microservices:
 
 The platform is designed with cloud scalability in mind and utilizes:
 
+- **CI/CD Pipeline**: Automated deployments to Amazon EC2 using GitHub Actions, ensuring efficient and consistent releases.
 - **PostgreSQL**: A powerful relational database hosted on Amazon RDS for data persistence.
 - **MongoDB**: A NoSQL database for handling unstructured or semi-structured data.
 - **RabbitMQ**: Implements RabbitMQ (via Amazon MQ) for asynchronous communication between services.
-- **CI/CD Pipeline**: Automated deployments to Amazon EC2 using GitHub Actions, ensuring efficient and consistent releases.
+- **Load Balancer**: Ensures even distribution of incoming traffic across multiple instances, improving reliability and performance.
 - **API Gateway**: Serves as the single entry point for all client requests, routing them to the appropriate microservices.
 - **Centralized Logging**: Aggregates logs from all microservices using the ELK stack (Elasticsearch, Logstash, Kibana).
 - **Monitoring**: Uses Datadog for system monitoring.
