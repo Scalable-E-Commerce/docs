@@ -33,7 +33,7 @@ The platform includes the following core microservices:
 6. [**Order Service**](https://github.com/Scalable-E-Commerce/order-microservice)  
    Processes orders, tracks order status, and manages order history.  
    
-7. [**Client Web**](https://github.com/Scalable-E-Commerce/frontend-microservice)  
+7. [**Client Web**](https://github.com/Scalable-E-Commerce/frontend-monolithic)  
    Provides a user-friendly interface for customers to browse products, manage their carts, and place orders.  
 
 ## Infrastructure
