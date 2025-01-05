@@ -59,7 +59,7 @@ All microservices are containerized using Docker, with orchestration managed thr
 - **Load Balancing**: Ensures high availability and efficient request handling.
 
 ## Documentation
-For those who want a deeper understanding of the platform, comprehensive documentation is available in the [/docs folder.](https://github.com/Scalable-E-Commerce/docs/docs) The documentation provides insights!
+For those who want a deeper understanding of the platform, comprehensive documentation is available in the [/docs folder.](https://github.com/Scalable-E-Commerce/docs/tree/main/docs) The documentation provides insights!
 
 ## Technology Stack for Microservices  
 This platform includes a **boilerplate project** that explains the recommended technologies and architecture for building microservices. You can find it here: [Boilerplate for Scalable Microservices](https://github.com/Scalable-E-Commerce/boilerplate-microservice).  
