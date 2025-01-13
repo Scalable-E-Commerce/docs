@@ -1,4 +1,5 @@
 # Scalable E-Commerce Platform (Open Source)
+![image](https://github.com/user-attachments/assets/28b17d45-7084-4bc5-9ba0-aac42347e575)
 
 This is an open-source project designed to provide a modern and scalable solution for building e-commerce systems. By leveraging a microservices architecture, this platform ensures modularity, scalability, and reliability, making it an ideal choice for developers and businesses looking to create robust online stores.
 
@@ -9,7 +10,6 @@ The platform is built using **Node.js** and **TypeScript**, with each core featu
 - **Scalability**: Services can be scaled based on demand without affecting others.
 - **Resilience**: Fault isolation ensures that issues in one service don’t bring down the entire system.
 
-![image](https://github.com/user-attachments/assets/28b17d45-7084-4bc5-9ba0-aac42347e575)
 
 ## Core Features
 
