@@ -57,4 +57,4 @@ PM2 is used to run Node.js applications on EC2 instances as background processes
 - **Separation of Concerns**: Deploying each service on a dedicated EC2 instance ensures that they don't interfere with each other, making it easier to troubleshoot and manage.
 - **Simplified Deployment**: With PM2 and the CI/CD pipeline in place, deployments become automatic and don't require manual intervention.
 
-For more information on how PM2 and EC2 work together, check out the [PM2 Documentation](https://pm2.keymetrics.io/) and the [AWS EC2 Documentation](https://aws.amazon.com/ec2/).
+For more information on how PM2 and EC2 work together, check out the [PM2 Documentation](https://pm2.keymetrics.io/), [YouTube Reference Video](https://www.youtube.com/watch?v=EUIU2Gn0fXQ&t=233s&ab_channel=Scale-UpSaaS) and the [AWS EC2 Documentation](https://aws.amazon.com/ec2/).
