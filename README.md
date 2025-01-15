@@ -1,4 +1,5 @@
 # Scalable E-Commerce Platform (Open Source)
+![image](https://github.com/user-attachments/assets/28b17d45-7084-4bc5-9ba0-aac42347e575)
 
 This is an open-source project designed to provide a modern and scalable solution for building e-commerce systems. By leveraging a microservices architecture, this platform ensures modularity, scalability, and reliability, making it an ideal choice for developers and businesses looking to create robust online stores.
 
@@ -9,7 +10,6 @@ The platform is built using **Node.js** and **TypeScript**, with each core featu
 - **Scalability**: Services can be scaled based on demand without affecting others.
 - **Resilience**: Fault isolation ensures that issues in one service don’t bring down the entire system.
 
-![image](https://github.com/user-attachments/assets/28b17d45-7084-4bc5-9ba0-aac42347e575)
 
 ## Core Features
 
@@ -33,7 +33,7 @@ The platform includes the following core microservices:
 6. [**Order Service**](https://github.com/Scalable-E-Commerce/order-microservice)  
    Processes orders, tracks order status, and manages order history.  
    
-7. [**Client Web**](https://github.com/Scalable-E-Commerce/frontend-microservice)  
+7. [**Client Web**](https://github.com/Scalable-E-Commerce/frontend-monolithic)  
    Provides a user-friendly interface for customers to browse products, manage their carts, and place orders.  
 
 ## Infrastructure
@@ -59,7 +59,7 @@ All microservices are containerized using Docker, with orchestration managed thr
 - **Load Balancing**: Ensures high availability and efficient request handling.
 
 ## Documentation
-For those who want a deeper understanding of the platform, comprehensive documentation is available in the [/docs folder.](https://github.com/Scalable-E-Commerce/docs/docs) The documentation provides insights!
+For those who want a deeper understanding of the platform, comprehensive documentation is available in the [/docs folder.](https://github.com/Scalable-E-Commerce/docs/tree/main/docs) The documentation provides insights!
 
 ## Technology Stack for Microservices  
 This platform includes a **boilerplate project** that explains the recommended technologies and architecture for building microservices. You can find it here: [Boilerplate for Scalable Microservices](https://github.com/Scalable-E-Commerce/boilerplate-microservice).  
