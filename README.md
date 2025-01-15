@@ -15,25 +15,25 @@ The platform is built using **Node.js** and **TypeScript**, with each core featu
 
 The platform includes the following core microservices:
 
-1. [**User Service**](https://github.com/Scalable-E-Commerce/user-microservice)  
+1. [**User Service**](https://github.com/scalify-xyz/user-microservice)  
    Handles user registration, authentication, and profile management.  
 
-2. [**Payment Service**](https://github.com/Scalable-E-Commerce/payment-microservice)  
+2. [**Payment Service**](https://github.com/scalify-xyz/payment-microservice)  
    Handles payment processing, integrating with external payment gateways such as Stripe or PayPal.  
 
-3. [**Notification Service**](https://github.com/Scalable-E-Commerce/notification-microservice)  
+3. [**Notification Service**](https://github.com/scalify-xyz/notification-microservice)  
    Sends email and SMS notifications for events such as order confirmations and shipping updates.  
 
-4. [**Product Service**](https://github.com/Scalable-E-Commerce/product-microservice)  
+4. [**Product Service**](https://github.com/scalify-xyz/product-microservice)  
    Manages product listings, categories, and inventory.  
 
-5. [**Cart Service**](https://github.com/Scalable-E-Commerce/cart-microservice)  
+5. [**Cart Service**](https://github.com/scalify-xyz/cart-microservice)  
    Manages users’ shopping carts, including adding/removing items and updating quantities.  
 
-6. [**Order Service**](https://github.com/Scalable-E-Commerce/order-microservice)  
+6. [**Order Service**](https://github.com/scalify-xyz/order-microservice)  
    Processes orders, tracks order status, and manages order history.  
    
-7. [**Client Web**](https://github.com/Scalable-E-Commerce/frontend-monolithic)  
+7. [**Client Web**](https://github.com/scalify-xyz/frontend-monolithic)  
    Provides a user-friendly interface for customers to browse products, manage their carts, and place orders.  
 
 ## Infrastructure
@@ -59,10 +59,10 @@ All microservices are containerized using Docker, with orchestration managed thr
 - **Load Balancing**: Ensures high availability and efficient request handling.
 
 ## Documentation
-For those who want a deeper understanding of the platform, comprehensive documentation is available in the [/docs folder.](https://github.com/Scalable-E-Commerce/docs/tree/main/docs) The documentation provides insights!
+For those who want a deeper understanding of the platform, comprehensive documentation is available in the [/docs folder.](https://github.com/scalify-xyz/docs/tree/main/docs) The documentation provides insights!
 
 ## Technology Stack for Microservices  
-This platform includes a **boilerplate project** that explains the recommended technologies and architecture for building microservices. You can find it here: [Boilerplate for Scalable Microservices](https://github.com/Scalable-E-Commerce/boilerplate-microservice).  
+This platform includes a **boilerplate project** that explains the recommended technologies and architecture for building microservices. You can find it here: [Boilerplate for Scalable Microservices](https://github.com/scalify-xyz/boilerplate-microservice).  
 
 ## Contributing
 Contributions are welcome! If you’re interested in improving the platform or adding new features, please follow these steps:
